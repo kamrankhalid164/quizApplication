@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background-color: black;
+    }
+    h1{
+        text-align: center;
+        color: aqua;
+    }
+    h3{
+        color: red;
+    }
+    ul{
+        color: green;
+    }
+    .q{
+        color: greenyellow;
+    }
+    button{
+        margin-top: 50px;
+        margin-left: 600px;
+        width: 100px;
+        height: 30px ;
+        background-color: black;
+        color: white;
+    }
+    button:hover{
+        background-color:  red;
+    }
+    .subf{
+        border-radius: 2em;
+        margin-top: 5px;
+
+    }
+    
+</style>
+<body>
+    <h1>Quiz Application</h1>
+    <fieldset class="subf">
+        <h3>Question # 1</h3>
+        <fieldset class="q">pakistan w.r.t to area</fieldset>
+        <fieldset>
+            <ul><input type="radio" name="q1" id="q1a1">881913 km square</ul>
+            <ul><input type="radio" name="q1" id="q1a2">881613 km square</ul>
+            <ul><input type="radio" name="q1" id="q1a3">881863 km square</ul>
+            <ul><input type="radio" name="q1" id="q1a4">881999 km square</ul>
+        </fieldset>
+    </fieldset>
+    <fieldset class="subf">
+        <h3>Question # 2</h3>
+        <fieldset class="q">Prime Misnister of pakistan</fieldset>
+        <fieldset>
+            <ul><input type="radio" name="q2" id="q2a1">Imran Khan</ul>
+            <ul><input type="radio" name="q2" id="q2a2">Nawaz sharif</ul>
+            <ul><input type="radio" name="q2" id="q2a3">Arif Alvi</ul>
+            <ul><input type="radio" name="q2" id="q2a4">Zia Khan</ul>
+        </fieldset>
+    </fieldset>
+    <fieldset class="subf">
+        <h3>Question # 3</h3>
+        <fieldset class="q">Owner of saylani mass it training center</fieldset>
+        <fieldset>
+            <ul><input type="radio" name="q3" id="q3a1">Zia Khan </ul>
+            <ul><input type="radio" name="q3" id="q3a2">Maulana Bashir </ul>
+            <ul><input type="radio" name="q3" id="q3a3">Pervaiz Musharaf</ul>
+            <ul><input type="radio" name="q3" id="q3a4">Qamar javaid bajwa</ul>
+        </fieldset>
+    </fieldset>
+    <fieldset class="subf">
+        <h3>Question # 4</h3>
+        <fieldset class="q">who invented the computer mouse </fieldset>
+        <fieldset>
+            <ul><input type="radio" name="q4" id="q4a1">Donald Trump</ul>
+            <ul><input type="radio" name="q4" id="q4a2">Imran Khan </ul>
+            <ul><input type="radio" name="q4" id="q4a3">Douglas Engelbart</ul>
+            <ul><input type="radio" name="q4" id="q4a4">Muhammad Ali Mughal</ul>
+        </fieldset>
+    </fieldset>
+    <button type="submit" onclick="Question1()">Result</button>
+    
+</body>
+<script src="app.js"></script>
+</html>
